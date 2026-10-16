@@ -1,131 +1,178 @@
 # PulseFit • Modern Fitness Tracker Application
 
-A modern, polished, and feature-complete fitness tracking application developed in Flutter. Built with professional UI/UX design principles, sleek glassmorphism aesthetics, responsive layouts, interactive charts, and offline-first local persistence.
+> **CodeAlpha App Development Internship Project**
+>
+> A Flutter-based fitness tracking application developed as part of my **CodeAlpha App Development Internship**.
+>
+> **PulseFit — Track Your Fitness. Build Your Best Self.**
 
 ---
+
+PulseFit is a modern, polished fitness tracking application built with Flutter and Dart. It features a professional user interface, sleek glassmorphism aesthetics, interactive charts, personalized fitness goals, workout logging, progress analytics, and offline-first local data persistence.
 
 ## 🌟 Core Features & Highlights
 
 ### 1. 📊 Interactive Dashboard & Activity Rings
-- **Apple/Garmin-style Concentric Activity Rings**: Animated real-time visual progress rings for **Active Calories**, **Steps**, **Active Minutes**, and **Hydration**.
-- **Interactive Ring Inspector**: Tap on any ring legend (Calories, Steps, Active, Water) to dynamically highlight metrics and percentage completions.
-- **Metric Cards Grid**: Glassmorphism cards displaying live values, target completion progress bars, and one-tap quick-entry actions.
-- **Dynamic Date Navigator**: Seamlessly view and log workouts for today, yesterday, or any past calendar date.
-- **Active Workout Streaks**: Motivational streak counter tracking consecutive days of consistency.
-- **Today's Timeline**: Interactive feed of all logged workouts with options to view, edit, or delete entries.
+- **Concentric Activity Rings:** Animated progress rings for active calories, steps, active minutes, and hydration.
+- **Interactive Ring Inspector:** Tap on ring legends to highlight metrics and completion percentages.
+- **Metric Cards Grid:** Glassmorphism cards displaying fitness metrics, target progress, and quick-entry actions.
+- **Dynamic Date Navigator:** View and log workouts for today, yesterday, or previous dates.
+- **Active Workout Streaks:** Track consecutive days of fitness activity.
+- **Today's Timeline:** View, edit, and delete logged workouts.
 
-### 2. 🏋️ Comprehensive Manual Workout & Activity Logging
-- **12+ Exercise Categories**: Running, Cycling, Swimming, Walking, Weight Lifting, HIIT/Circuit, Yoga, Pilates, Boxing, Hiking, Jump Rope, and Custom Exercises.
-- **Smart MET-based Calorie Estimator**: Automatically calculates calories burned based on scientific Metabolic Equivalent of Task (MET) formula, exercise duration, user body weight, and workout intensity.
-- **Manual Calorie Override**: One-tap toggle allowing precise manual calorie entry whenever needed.
-- **Strength & Resistance Tracking**: Log sets, reps, and weight lifted (kg).
-- **Cardio & Vitals Support**: Log distance covered (km), average heart rate (bpm), and detailed session notes.
-- **Intensity Selector**: Low (Casual), Moderate (Steady), High (Intense), and Extreme (Max Effort).
+### 2. 🏋️ Comprehensive Workout & Activity Logging
+- **12+ Exercise Categories:** Running, cycling, swimming, walking, weight lifting, HIIT, yoga, Pilates, boxing, hiking, jump rope, and custom exercises.
+- **MET-Based Calorie Estimation:** Estimate calories burned based on activity, duration, body weight, and workout intensity.
+- **Manual Calorie Override:** Enter custom calorie values when needed.
+- **Strength Tracking:** Record sets, repetitions, and weights lifted.
+- **Cardio Tracking:** Log distance, average heart rate, and session notes.
+- **Intensity Selector:** Choose from low, moderate, high, and extreme intensity levels.
 
 ### 3. 📈 Advanced Analytics & Visual Reports
-- **Multi-Period Switcher**: Toggle between 7-Day (Weekly) and 30-Day (Monthly) performance analysis.
-- **Weekly & Monthly Bar Charts**: Gradient bar graphs for Calories, Steps, Active Time, and Water with day-by-day interactive tooltips.
-- **Workout Category Donut Chart**: Breakdown of workout volume across Cardio, Strength, Flexibility, Sports, and Outdoor activities.
-- **Weight Progress Trend Line**: Curved line graph illustrating weight fluctuations over time compared against your target goal weight.
-- **Personal Records (PRs) & Highlights**: Instant recognition for Peak Single-Session Burn, Highest Daily Steps, Longest Workout Session, and Best Streak.
-- **Daily Averages Breakdown**: Comprehensive summary table of average daily metrics.
+- **Weekly and Monthly Analytics:** Switch between 7-day and 30-day performance reports.
+- **Interactive Bar Charts:** Visualize calories, steps, active minutes, and hydration.
+- **Workout Category Distribution:** Explore activity breakdowns across workout categories.
+- **Weight Trend Tracking:** Monitor weight changes against a target weight.
+- **Personal Records:** Highlight peak calorie burn, highest daily steps, longest workout, and best streak.
+- **Daily Averages:** Review average fitness metrics.
 
-### 4. 📖 Searchable Workout Log Book (History)
-- Real-time search across workout titles, notes, and activity types.
-- Category filters (Cardio, Strength, Flexibility, Sports, Outdoor).
-- Filter summary banner displaying total session count, aggregate calories burned, and total exercise time.
-- Tap to edit existing logs or delete with a confirmation dialog.
+### 4. 📖 Searchable Workout History
+- Search workout titles, notes, and activity types.
+- Filter activities by category.
+- Review session counts, calories burned, and total exercise duration.
+- Edit existing workouts or delete entries with confirmation.
 
-### 5. 🎯 Custom Goals & Gamification Badges
-- **Personalized Target Customizer**: Interactive sliders for Daily Steps, Daily Calorie Burn, Water Hydration (ml), Active Exercise Minutes, Sleep Goal (hrs), and Target Body Weight (kg).
-- **Milestones & Achievement Badges**: Gamified achievements (e.g., *First Step*, *Hydration Hero*, *Calorie Crusher*, *Consistency Starter*, *10k Club*, *Centurion*, *Cross-Trainer*) with animated progress indicators.
+### 5. 🎯 Personalized Goals & Achievement Badges
+- Customize daily targets for steps, calories, hydration, active minutes, sleep, and body weight.
+- Earn achievement badges for milestones such as First Step, Hydration Hero, Calorie Crusher, and 10k Club.
+- Track progress with visual indicators and gamified achievements.
 
-### 6. 👤 Profile, BMI & Local Storage Management
-- User profile configuration (Name, Age, Gender, Height, Weight).
-- Automatic BMI (Body Mass Index) calculation with status indicator.
-- Unit system selection (Metric vs Imperial).
-- **Theme Switcher**: Dark Mode (sleek slate & neon accents) and Light Mode.
-- **JSON Data Export & Import**: Backup all fitness records as a JSON file or copy to clipboard; restore anytime.
-- **Demo Data Reset**: Instant reset option to restore a pre-populated 7-day realistic workout dataset for testing.
+### 6. 👤 Profile, BMI & Data Management
+- Configure name, age, gender, height, and weight.
+- Calculate Body Mass Index (BMI).
+- Switch between metric and imperial units.
+- Choose dark or light mode.
+- Export and import fitness records in JSON format.
+- Reset demo data to explore a sample 7-day workout dataset.
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🛠️ Tech Stack & Architecture
 
-- **Framework**: Flutter 3.38+ / Dart 3.10+
-- **State Management**: Reactive `ChangeNotifier` (`FitnessState`)
-- **Data Persistence**: `shared_preferences` with JSON serialization/deserialization
-- **Charts & Visuals**: `fl_chart` + Custom Canvas `CustomPainter`
-- **Typography & Styling**: `google_fonts` (Plus Jakarta Sans)
-- **Unique IDs**: `uuid`
-- **Internationalization & Formatting**: `intl`
+- **Framework:** Flutter
+- **Programming Language:** Dart
+- **State Management:** ChangeNotifier
+- **Local Persistence:** SharedPreferences with JSON serialization
+- **Charts & Visualization:** fl_chart and CustomPainter
+- **Typography:** Google Fonts — Plus Jakarta Sans
+- **Unique Identifiers:** UUID
+- **Date Formatting:** intl
+- **Development Environment:** Visual Studio Code
 
-### Directory Structure
-```
+## 📂 Project Structure
+
+```text
 lib/
-├── main.dart                          # Application entry point & theme configuration
+├── main.dart
 ├── models/
-│   ├── activity_type.dart             # Exercise categories, icons, MET factors
-│   ├── workout_entry.dart             # Workout log model & JSON serialization
-│   ├── daily_metric.dart              # Daily steps, hydration, sleep & weight
-│   ├── goal_settings.dart             # User daily target goals
-│   ├── user_profile.dart              # User profile & BMI calculation
-│   └── achievement.dart               # Gamification badges & milestones
+│   ├── achievement.dart
+│   ├── activity_type.dart
+│   ├── daily_metric.dart
+│   ├── goal_settings.dart
+│   ├── user_profile.dart
+│   └── workout_entry.dart
 ├── services/
-│   ├── fitness_repository.dart        # SharedPreferences persistence & seed data
-│   └── fitness_state.dart             # Core reactive state provider
+│   ├── fitness_repository.dart
+│   └── fitness_state.dart
 ├── theme/
-│   ├── app_colors.dart                # Theme palettes, neon gradients, status colors
-│   └── app_theme.dart                 # Dark and Light ThemeData definitions
+│   ├── app_colors.dart
+│   └── app_theme.dart
 ├── widgets/
-│   ├── activity_ring.dart             # Concentric animated activity rings
-│   ├── metric_card.dart               # Metric stat card with progress bars
-│   ├── weekly_bar_chart.dart          # Bar charts for calories, steps, water
-│   ├── category_distribution_chart.dart # Donut chart for workout categories
-│   ├── weight_trend_chart.dart        # Line chart for weight progression
-│   ├── workout_card.dart              # Workout card with badges & details
-│   ├── achievement_badge_card.dart    # Milestone badge cards
-│   └── quick_log_sheet.dart           # Modal sheets for water, steps, sleep, weight
+│   ├── achievement_badge_card.dart
+│   ├── activity_ring.dart
+│   ├── category_distribution_chart.dart
+│   ├── metric_card.dart
+│   ├── quick_log_sheet.dart
+│   ├── weekly_bar_chart.dart
+│   ├── weight_trend_chart.dart
+│   └── workout_card.dart
 └── screens/
-    ├── main_navigation_screen.dart    # Bottom navigation controller & FAB
-    ├── dashboard_screen.dart          # Main dashboard overview
-    ├── analytics_screen.dart          # Progress reports & trend analytics
-    ├── history_screen.dart            # Searchable & filterable workout log book
-    ├── goals_screen.dart              # Goals adjustment & achievements
-    ├── profile_screen.dart            # Profile, BMI gauge, settings, export/import
-    └── log_workout_screen.dart        # Manual workout logger & MET calculator
+    ├── analytics_screen.dart
+    ├── dashboard_screen.dart
+    ├── goals_screen.dart
+    ├── history_screen.dart
+    ├── log_workout_screen.dart
+    ├── main_navigation_screen.dart
+    ├── profile_screen.dart
+    └── splash_screen.dart
 ```
 
 ---
 
-## 🚀 How to Run the App
+## 🚀 Getting Started
 
 ### Prerequisites
-1. Ensure Flutter is installed on your machine:
-   ```bash
-   flutter --version
-   ```
-2. Get project dependencies:
-   ```bash
-   flutter pub get
-   ```
+- Flutter SDK installed
+- Dart SDK compatible with your Flutter installation
+- Visual Studio Code or another Flutter-compatible IDE
 
-### Run on Chrome / Web:
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/Misbah-Amjad/CodeAlpha_FitnessTrackerApp_PulseFit.git
+cd CodeAlpha_FitnessTrackerApp_PulseFit
+```
+
+**2. Install dependencies**
+
+```bash
+flutter pub get
+```
+
+**3. Run the application**
+
+For Chrome:
+
 ```bash
 flutter run -d chrome
 ```
 
-### Run on Windows Desktop:
+For Windows desktop:
+
 ```bash
 flutter run -d windows
 ```
 
-### Run on Connected Android / iOS Device or Emulator:
+For a connected Android device or configured emulator:
+
 ```bash
 flutter run
 ```
 
-### Run Unit and Widget Tests:
+**4. Run tests**
+
 ```bash
 flutter test
 ```
+
+---
+
+## 🎓 Internship Project Acknowledgment
+
+**Developed as part of the CodeAlpha App Development Internship.**
+
+PulseFit demonstrates my practical experience in Flutter application development, Dart programming, UI/UX implementation, state management, local data persistence, fitness analytics, and interactive mobile app interfaces.
+
+## 👩‍💻 Developer
+
+**Misbah Amjad**
+
+- **GitHub:** [Misbah-Amjad](https://github.com/Misbah-Amjad)
+- **LinkedIn:** [Misbah Amjad](https://www.linkedin.com/in/misbahh-amjad/)
+
+---
+
+*PulseFit — Track your progress. Celebrate your consistency. Keep moving.*
+
