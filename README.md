@@ -1,4 +1,4 @@
-# 💪 PulseFit — Modern Fitness Tracker
+#                💪 PulseFit — Modern Fitness Tracker
 
 <p align="center">
   <strong>Track Your Fitness. Build Your Best Self.</strong>
