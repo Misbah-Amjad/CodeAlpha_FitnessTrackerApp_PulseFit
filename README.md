@@ -69,6 +69,62 @@ PulseFit is a modern, polished fitness tracking application built with Flutter a
 - **Date Formatting:** intl
 - **Development Environment:** Visual Studio Code
 
+## 📱 App Screenshots
+
+Explore **PulseFit — Modern Fitness Tracker**, designed to help users track workouts, monitor progress, and build healthier habits.
+
+### 🚀 Launch & Splash
+
+<p align="center">
+  <img src="screenshots/launch%20screen.jpeg" width="220" alt="PulseFit Launch Screen">
+  &nbsp;&nbsp;
+  <img src="screenshots/splash%20screen.jpeg" width="220" alt="PulseFit Splash Screen">
+</p>
+
+### 🏠 Dashboard
+
+<p align="center">
+  <img src="screenshots/dashboard%20%20%20screen.jpeg" width="180" alt="PulseFit Dashboard">
+  &nbsp;&nbsp;
+  <img src="screenshots/dashboard%202.jpeg" width="180" alt="PulseFit Dashboard Overview">
+</p>
+
+### 🏋️ Workout Tracking
+
+<p align="center">
+  <img src="screenshots/add%20log%20workout%20screen.jpeg" width="180" alt="Add Workout">
+  &nbsp;&nbsp;
+  <img src="screenshots/log%20book%20screen.jpeg" width="180" alt="Workout Log Book">
+</p>
+
+### 📊 Analytics & Progress
+
+<p align="center">
+  <img src="screenshots/analytics%20screen%201.jpeg" width="180" alt="Analytics Screen 1">
+  &nbsp;&nbsp;
+  <img src="screenshots/analytics%20screen%202.jpeg" width="180" alt="Analytics Screen 2">
+  <br><br>
+  <img src="screenshots/analytics%20screen%203.jpeg" width="180" alt="Analytics Screen 3">
+  &nbsp;&nbsp;
+  <img src="screenshots/analytics%20screen%204.jpeg" width="180" alt="Analytics Screen 4">
+</p>
+
+### 🎯 Goals & Achievements
+
+<p align="center">
+  <img src="screenshots/goals%20and%20badges%20screen%201.jpeg" width="180" alt="Goals and Badges">
+  &nbsp;&nbsp;
+  <img src="screenshots/goals%20and%20badges%20screen%202.jpeg" width="180" alt="Goals and Badges Overview">
+</p>
+
+### 👤 Profile & Settings
+
+<p align="center">
+  <img src="screenshots/profile%20and%20setting%20screen.jpeg" width="180" alt="Profile and Settings">
+  &nbsp;&nbsp;
+  <img src="screenshots/edit%20profile%20screen.jpeg" width="180" alt="Edit Profile">
+</p>
+
 ## 📂 Project Structure
 
 ```text
