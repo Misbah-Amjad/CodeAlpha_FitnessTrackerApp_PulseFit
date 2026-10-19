@@ -1,84 +1,97 @@
-# PulseFit • Modern Fitness Tracker Application
+# 💪 PulseFit — Modern Fitness Tracker
 
-> **CodeAlpha App Development Internship Project**
->
-> A Flutter-based fitness tracking application developed as part of my **CodeAlpha App Development Internship**.
->
-> **PulseFit — Track Your Fitness. Build Your Best Self.**
+<p align="center">
+  <strong>Track Your Fitness. Build Your Best Self.</strong>
+  <br>
+  A modern Flutter application for tracking workouts, monitoring fitness progress, and building healthier habits.
+</p>
 
----
-
-PulseFit is a modern, polished fitness tracking application built with Flutter and Dart. It features a professional user interface, sleek glassmorphism aesthetics, interactive charts, personalized fitness goals, workout logging, progress analytics, and offline-first local data persistence.
-
-## 🌟 Core Features & Highlights
-
-### 1. 📊 Interactive Dashboard & Activity Rings
-- **Concentric Activity Rings:** Animated progress rings for active calories, steps, active minutes, and hydration.
-- **Interactive Ring Inspector:** Tap on ring legends to highlight metrics and completion percentages.
-- **Metric Cards Grid:** Glassmorphism cards displaying fitness metrics, target progress, and quick-entry actions.
-- **Dynamic Date Navigator:** View and log workouts for today, yesterday, or previous dates.
-- **Active Workout Streaks:** Track consecutive days of fitness activity.
-- **Today's Timeline:** View, edit, and delete logged workouts.
-
-### 2. 🏋️ Comprehensive Workout & Activity Logging
-- **12+ Exercise Categories:** Running, cycling, swimming, walking, weight lifting, HIIT, yoga, Pilates, boxing, hiking, jump rope, and custom exercises.
-- **MET-Based Calorie Estimation:** Estimate calories burned based on activity, duration, body weight, and workout intensity.
-- **Manual Calorie Override:** Enter custom calorie values when needed.
-- **Strength Tracking:** Record sets, repetitions, and weights lifted.
-- **Cardio Tracking:** Log distance, average heart rate, and session notes.
-- **Intensity Selector:** Choose from low, moderate, high, and extreme intensity levels.
-
-### 3. 📈 Advanced Analytics & Visual Reports
-- **Weekly and Monthly Analytics:** Switch between 7-day and 30-day performance reports.
-- **Interactive Bar Charts:** Visualize calories, steps, active minutes, and hydration.
-- **Workout Category Distribution:** Explore activity breakdowns across workout categories.
-- **Weight Trend Tracking:** Monitor weight changes against a target weight.
-- **Personal Records:** Highlight peak calorie burn, highest daily steps, longest workout, and best streak.
-- **Daily Averages:** Review average fitness metrics.
-
-### 4. 📖 Searchable Workout History
-- Search workout titles, notes, and activity types.
-- Filter activities by category.
-- Review session counts, calories burned, and total exercise duration.
-- Edit existing workouts or delete entries with confirmation.
-
-### 5. 🎯 Personalized Goals & Achievement Badges
-- Customize daily targets for steps, calories, hydration, active minutes, sleep, and body weight.
-- Earn achievement badges for milestones such as First Step, Hydration Hero, Calorie Crusher, and 10k Club.
-- Track progress with visual indicators and gamified achievements.
-
-### 6. 👤 Profile, BMI & Data Management
-- Configure name, age, gender, height, and weight.
-- Calculate Body Mass Index (BMI).
-- Switch between metric and imperial units.
-- Choose dark or light mode.
-- Export and import fitness records in JSON format.
-- Reset demo data to explore a sample 7-day workout dataset.
+<p align="center">
+  <img src="https://img.shields.io/badge/CodeAlpha-App%20Development%20Internship-blue" alt="CodeAlpha Internship">
+  <img src="https://img.shields.io/badge/Flutter-Mobile%20Development-02569B?logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/Language-Dart-0175C2?logo=dart&logoColor=white" alt="Dart">
+  <img src="https://img.shields.io/badge/Storage-Offline--First-success" alt="Offline First">
+</p>
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 📌 About the Project
 
-- **Framework:** Flutter
-- **Programming Language:** Dart
-- **State Management:** ChangeNotifier
-- **Local Persistence:** SharedPreferences with JSON serialization
-- **Charts & Visualization:** fl_chart and CustomPainter
-- **Typography:** Google Fonts — Plus Jakarta Sans
-- **Unique Identifiers:** UUID
-- **Date Formatting:** intl
-- **Development Environment:** Visual Studio Code
+**PulseFit** is a fitness tracking application developed as part of my **CodeAlpha App Development Internship**. Built with Flutter and Dart, it combines a modern user interface with interactive visualizations and practical fitness management tools.
+
+The application allows users to log workouts, monitor daily activity, set personalized goals, review performance analytics, and track achievements. It uses local data persistence to keep fitness records available on the device.
+
+This project demonstrates my practical experience in Flutter UI development, state management, data handling, reusable widgets, and interactive dashboard design.
+
+## ✨ Key Features
+
+### 📊 Interactive Fitness Dashboard
+- Animated activity rings for calories, steps, active minutes, and hydration.
+- Fitness metric cards with progress indicators and quick actions.
+- Date navigation for reviewing activity across different days.
+- Workout streaks and a daily activity timeline.
+- Options to edit and delete logged activities.
+
+### 🏋️ Workout & Activity Tracking
+- Support for 12+ exercise categories, including running, walking, cycling, swimming, strength training, yoga, and HIIT.
+- Workout logging with duration, intensity, and activity-specific details.
+- MET-based calorie estimation using activity, duration, body weight, and intensity.
+- Strength workout tracking for sets, repetitions, and weights.
+- Cardio details such as distance, average heart rate, and notes.
+- Manual calorie entry when needed.
+
+### 📈 Fitness Analytics
+- Weekly and monthly performance reports.
+- Interactive charts for calories, steps, active minutes, and hydration.
+- Workout category distribution.
+- Weight trend tracking and target comparison.
+- Personal records and daily average metrics.
+
+### 📖 Workout History
+- Search workouts by title, notes, or activity type.
+- Filter records by workout category.
+- Review exercise duration, calories, and session counts.
+- Edit or delete existing workout entries.
+
+### 🎯 Goals & Achievements
+- Personalized targets for steps, calories, hydration, active minutes, sleep, and body weight.
+- Visual progress tracking.
+- Achievement badges for milestones such as First Step, Hydration Hero, Calorie Crusher, and 10k Club.
+
+### 👤 Profile & Personalization
+- Personal fitness profile settings.
+- BMI calculation based on entered measurements.
+- Metric and imperial unit options.
+- Light and dark themes.
+- Import and export of fitness records in JSON format.
+- Sample fitness data for exploring the application's features.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Flutter | Cross-platform application development |
+| Dart | Application programming language |
+| ChangeNotifier | State management |
+| SharedPreferences | Local data persistence |
+| JSON serialization | Storing and transferring local records |
+| fl_chart | Interactive data visualizations |
+| CustomPainter | Custom activity ring visuals |
+| Google Fonts — Plus Jakarta Sans | Typography |
+| UUID | Unique identifiers |
+| intl | Date and time formatting |
+| Visual Studio Code | Development environment |
 
 ## 📱 App Screenshots
 
-Explore **PulseFit — Modern Fitness Tracker**, designed to help users track workouts, monitor progress, and build healthier habits.
+Explore the main screens of PulseFit.
 
 ### 🚀 Launch & Splash
 
 <p align="center">
-  <img src="screenshots/launch%20screen.jpeg" width="220" alt="PulseFit Launch Screen">
+  <img src="screenshots/launch%20screen.jpeg" width="180" alt="PulseFit Launch Screen">
   &nbsp;&nbsp;
-  <img src="screenshots/splash%20screen.jpeg" width="220" alt="PulseFit Splash Screen">
+  <img src="screenshots/splash%20screen.jpeg" width="180" alt="PulseFit Splash Screen">
 </p>
 
 ### 🏠 Dashboard
@@ -92,7 +105,7 @@ Explore **PulseFit — Modern Fitness Tracker**, designed to help users track wo
 ### 🏋️ Workout Tracking
 
 <p align="center">
-  <img src="screenshots/add%20log%20workout%20screen.jpeg" width="180" alt="Add Workout">
+  <img src="screenshots/add%20log%20workout%20screen.jpeg" width="180" alt="Add Workout Screen">
   &nbsp;&nbsp;
   <img src="screenshots/log%20book%20screen.jpeg" width="180" alt="Workout Log Book">
 </p>
@@ -112,7 +125,7 @@ Explore **PulseFit — Modern Fitness Tracker**, designed to help users track wo
 ### 🎯 Goals & Achievements
 
 <p align="center">
-  <img src="screenshots/goals%20and%20badges%20screen%201.jpeg" width="180" alt="Goals and Badges">
+  <img src="screenshots/goals%20and%20badges%20screen%201.jpeg" width="180" alt="Goals and Badges Screen">
   &nbsp;&nbsp;
   <img src="screenshots/goals%20and%20badges%20screen%202.jpeg" width="180" alt="Goals and Badges Overview">
 </p>
@@ -122,10 +135,10 @@ Explore **PulseFit — Modern Fitness Tracker**, designed to help users track wo
 <p align="center">
   <img src="screenshots/profile%20and%20setting%20screen.jpeg" width="180" alt="Profile and Settings">
   &nbsp;&nbsp;
-  <img src="screenshots/edit%20profile%20screen.jpeg" width="180" alt="Edit Profile">
+  <img src="screenshots/edit%20profile%20screen.jpeg" width="180" alt="Edit Profile Screen">
 </p>
 
-## 📂 Project Structure
+## 🗂️ Project Structure
 
 ```text
 lib/
@@ -163,22 +176,22 @@ lib/
     └── splash_screen.dart
 ```
 
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Flutter SDK installed
+
+- Flutter SDK
 - Dart SDK compatible with your Flutter installation
 - Visual Studio Code or another Flutter-compatible IDE
+- A configured device, emulator, or supported desktop environment
 
 ### Installation
 
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/Misbah-Amjad/CodeAlpha_FitnessTrackerApp_PulseFit.git
-cd CodeAlpha_FitnessTrackerApp_PulseFit
+git clone https://github.com/Misbah-Amjad/CodeAlpha_PulseFit.git
+cd CodeAlpha_PulseFit
 ```
 
 **2. Install dependencies**
@@ -189,22 +202,22 @@ flutter pub get
 
 **3. Run the application**
 
-For Chrome:
+For a connected Android device or configured emulator:
+
+```bash
+flutter run
+```
+
+For Chrome, if web support is configured:
 
 ```bash
 flutter run -d chrome
 ```
 
-For Windows desktop:
+For Windows desktop, if Windows desktop support is configured:
 
 ```bash
 flutter run -d windows
-```
-
-For a connected Android device or configured emulator:
-
-```bash
-flutter run
 ```
 
 **4. Run tests**
@@ -213,22 +226,34 @@ flutter run
 flutter test
 ```
 
----
+## 💡 Skills Demonstrated
 
-## 🎓 Internship Project Acknowledgment
+Through this project, I gained practical experience in:
 
-**Developed as part of the CodeAlpha App Development Internship.**
+- Building responsive Flutter interfaces and reusable UI components.
+- Implementing state management with ChangeNotifier.
+- Managing locally persisted application data.
+- Creating interactive charts and custom-painted activity indicators.
+- Handling workout records, user preferences, and date-based activity.
+- Organizing application code into models, services, screens, themes, and widgets.
+- Designing a consistent user experience with modern visual styling.
 
-PulseFit demonstrates my practical experience in Flutter application development, Dart programming, UI/UX implementation, state management, local data persistence, fitness analytics, and interactive mobile app interfaces.
+## 🎓 CodeAlpha Internship
+
+PulseFit was developed as part of my **CodeAlpha App Development Internship**.
+
+This project represents my hands-on practice in mobile application development and my continued growth as a Flutter developer. It also serves as part of my professional portfolio.
 
 ## 👩‍💻 Developer
 
-**Misbah Amjad**
+**Misbah Amjad**  
+Flutter Developer | BS Information Technology, University of Sahiwal
 
 - **GitHub:** [Misbah-Amjad](https://github.com/Misbah-Amjad)
 - **LinkedIn:** [Misbah Amjad](https://www.linkedin.com/in/misbahh-amjad/)
 
 ---
 
-*PulseFit — Track your progress. Celebrate your consistency. Keep moving.*
-
+<p align="center">
+  <strong>PulseFit — Track Your Progress. Celebrate Your Consistency. Keep Moving.</strong>
+</p>
